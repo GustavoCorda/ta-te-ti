@@ -1,0 +1,46 @@
+body {
+  background:url(./background.png) ;
+  text-align: center;
+}
+
+h1 {
+  color: lightblue;
+}
+
+h2 {
+  color: lightblue;
+  padding-left: 19px;
+}
+
+button {
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 0px;
+  border-style: none ;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    color: rgb(5, 5, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
